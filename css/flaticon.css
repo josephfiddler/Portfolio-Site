@@ -32,12 +32,15 @@ margin-left: 20px;
 .flaticon-joystick:before {
 	content: "\e005";
 }
-.flaticon-twitter:before {
+.flaticon-menu:before {
 	content: "\e006";
 }
-.flaticon-tools:before {
+.flaticon-twitter:before {
 	content: "\e007";
 }
-.flaticon-guitar:before {
+.flaticon-tools:before {
 	content: "\e008";
+}
+.flaticon-guitar:before {
+	content: "\e009";
 }
