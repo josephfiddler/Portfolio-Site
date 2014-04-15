@@ -1,6 +1,155 @@
+/************* Global **************/
+html, body {
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+/************* Home **************/
+
+#Home {
+	background-color: #f4f4f4;
+	width: 100%;
+}
+
+#Home img {
+	width: 100px;
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#Home i {
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+#Home h1 {
+	color: #585351;
+	text-align: center;
+}
+
+#Home p {
+	color: #f07d22;
+	text-align: center;
+	font-size: 18px;
+}
+
+/************* Skills **************/
+
+#Skills {
+	background-color: #585351;
+	color: #f07d22;
+	width: 100%;
+	display: table;
+}
+
+.top-buffer {
+	margin-top: 100px;
+}
+
+#Skills h1 {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 40px;
+	width: 36%;
+}
+
+.skill {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.skill span {
+	float: left;
+	color: #f07d22;
+	font-size: 18px;
+}
+
+#Skills ul {
+	padding: 0;
+	float: right;
+	display: inline-block;
+	list-style: none;
+}
+
+#Skills ul li {
+	font-size: 18px;
+	float: left;
+	margin-right: 10px;
+}
+
 .circle {
 	height: 25px;
 	width: 25px;
 	border-radius: 50%;
-	background-color: black;
+	border: 2px solid #f07d22;
+}
+
+.filled {
+	background-color: #f07d22;
+}
+
+/************* Education-Experience **************/
+
+#Education-Experience {
+	background-color: #f4f4f4;
+	width: 100%;
+}
+
+#Education-Experience h1 {
+	color: #585351;
+}
+
+#Education-Experience p, span {
+	color: #585351;
+}
+
+#Education-Experience i {
+	color: #585351;
+}
+
+/************* Works **************/
+
+#Works {
+	background-color: #585351;
+	width: 100%;
+}
+
+#Works h1 {
+	color: #f07d22;
+}
+
+/************* Hobbies **************/
+
+#Hobbies {
+	background-color: #f4f4f4;
+	width: 100%;
+}
+
+#Hobbies h1, i {
+	color: #585351;
+}
+
+#Hobbies li {
+	color: #f07d22;
+}
+
+/************* Social **************/
+
+#Social {
+	background-color: #585351;
+	width: 100%;
+}
+
+#Social h1, i {
+	color: #f07d22;
 }

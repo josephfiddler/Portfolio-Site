@@ -10,9 +10,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<!--<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">-->
 	<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+	
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,86 +29,110 @@
 
 <body>
 	<section id="Home">
-		<img src="img/fiddler-logo.png" alt="Joseph Fiddler logo">
-		<i class="flaticon-menu"></i>
-		<h1>Upcoming Software and Web "Fiddler" (Developer)</h1>
-		<p>
-			Hello, my name is Joseph Fiddler. I am currently a TN Computer Science major 
-			& software developer intern.
-		</p>
+		<div class="row">
+			<img class="left" src="img/fiddler-logo.png" alt="Joseph Fiddler logo">
+			<i class="flaticon-menu right"></i>
+		</div>
+		
+		<div class="row">
+			<h1 class="col-xs-12">Upcoming Software and Web "Fiddler" (Developer)</h1>
+			<p class="col-xs-4 col-xs-offset-4">
+				Hello, my name is Joseph Fiddler. I am currently a TN Computer Science major 
+				& software developer intern.
+			</p>
+		</div>
 	</section>
 
 	<section id="Skills">
 		<h1>Skills</h1>
-
-		<h2>Software</h2>
-		<ul>
-			<li>Programming</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		</ul>
-		<ul>
-			<li>Mobile</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		</ul>
-		<ul>
-			<li>Database</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		</ul>
-		<ul>
-			<li>Engineering</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		</ul>
-
-		<h2>Web</h2>
-		<ul>
-			<li>HTML & CSS</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		</ul>
-		<ul>
-			<li>Javascript</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		</ul>
-		<ul>
-			<li>Wireframing</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		</ul>
-		<ul>
-			<li>Designing</li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-			<li class="circle"></li>
-		<ul>
-		</ul>
+		<div class="row top-buffer">
+			<div class="col-xs-5">
+				<div class="skill">
+					<span>Programming</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+				<div class="skill">
+					<span>Mobile</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+				<div class="skill">
+					<span>Database</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+				<div class="skill">
+					<span>Engineering</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+			</div>
+		
+			<div class="col-xs-5">
+				<div class="skill">
+					<span>HTML & CSS</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+				<div class="skill">
+					<span>Javascript</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+				<div class="skill">
+					<span>Wireframing</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+				<div class="skill">
+					<span>Designing</span>
+					<ul>
+						<li class="filled circle"></li>
+						<li class="filled circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+						<li class="circle"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
 
 	</section>
 
@@ -121,7 +150,7 @@
 			<p>Freed-Hardeman University<span>2013</span></p>
 
 			<i class="flaticon-tools"></i>
-			<p>Software Developer Inter</p>
+			<p>Software Developer Intern</p>
 			<p>8th Day Software<span>2014-Present</span></p>
 		</article>
 	</section>
