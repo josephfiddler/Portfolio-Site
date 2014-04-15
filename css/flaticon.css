@@ -18,12 +18,17 @@ margin-left: 20px;
 }
 .flaticon-email:before {
 	content: "\e001";
+	font-size: 75px;
 }
 .flaticon-dumbbell:before {
 	content: "\e002";
 }
 .flaticon-facebook:before {
 	content: "\e003";
+	font-size: 75px;
+}
+.flaticon-facebook:hover {
+	font-color: blue;
 }
 .flaticon-globe:before {
 	content: "\e004";
@@ -37,6 +42,7 @@ margin-left: 20px;
 }
 .flaticon-twitter:before {
 	content: "\e007";
+	font-size: 75px;
 }
 .flaticon-tools:before {
 	content: "\e008";

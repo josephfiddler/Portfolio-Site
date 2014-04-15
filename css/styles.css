@@ -12,76 +12,86 @@ html, body {
 	float: right;
 }
 
+.align-vertical {
+	display: table-cell;
+	vertical-align: middle;
+}
 
-/************* Home **************/
 
-#Home {
+/************* home **************/
+
+#home {
 	background-color: #f4f4f4;
 	width: 100%;
 }
 
-#Home img {
+#home img {
 	width: 100px;
 	height: 100px;
 	margin-top: 40px;
 	margin-left: 40px;
 }
 
-#Home i {
+#home i {
 	margin-top: 40px;
 	margin-right: 40px;
+	color: #f07d22;
 }
 
-#Home h1 {
+#home h1 {
 	color: #585351;
 	text-align: center;
 }
 
-#Home p {
+#home p {
 	color: #f07d22;
 	text-align: center;
 	font-size: 18px;
 }
 
-/************* Skills **************/
+/************* skills **************/
 
-#Skills {
+#skills {
 	background-color: #585351;
 	color: #f07d22;
 	width: 100%;
 	display: table;
 }
 
-.top-buffer {
-	margin-top: 100px;
+#skill-slot-row {
+	border-left: 3px solid;
+	padding-left: 85px;
+	margin-top: 15px;
 }
 
-#Skills h1 {
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 40px;
-	width: 36%;
+#skills h1 {
+	text-align: center;
+	width: 20%;
 }
 
-.skill {
+.skill-slot {
 	overflow: hidden;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
-.skill span {
+.skill-buffer {
+	margin-right: 38px;
+}
+
+.skill-slot span {
 	float: left;
 	color: #f07d22;
 	font-size: 18px;
 }
 
-#Skills ul {
+#skills ul {
 	padding: 0;
 	float: right;
 	display: inline-block;
 	list-style: none;
 }
 
-#Skills ul li {
+#skills ul li {
 	font-size: 18px;
 	float: left;
 	margin-right: 10px;
@@ -98,58 +108,57 @@ html, body {
 	background-color: #f07d22;
 }
 
-/************* Education-Experience **************/
+/************* education-experience **************/
 
-#Education-Experience {
+#education-experience {
 	background-color: #f4f4f4;
 	width: 100%;
 }
 
-#Education-Experience h1 {
+#education-experience h1,
+#education-experience p, 
+#education-experience span,
+#education-experience i {
 	color: #585351;
 }
 
-#Education-Experience p, span {
-	color: #585351;
-}
 
-#Education-Experience i {
-	color: #585351;
-}
+/************* works **************/
 
-/************* Works **************/
-
-#Works {
+#works {
 	background-color: #585351;
 	width: 100%;
 }
 
-#Works h1 {
+#works h1 {
 	color: #f07d22;
 }
 
-/************* Hobbies **************/
+/************* hobbies **************/
 
-#Hobbies {
+#hobbies {
 	background-color: #f4f4f4;
 	width: 100%;
 }
 
-#Hobbies h1, i {
+#hobbies h1,
+#hobbies i {
 	color: #585351;
 }
 
-#Hobbies li {
+#hobbies li {
 	color: #f07d22;
 }
 
-/************* Social **************/
+/************* social **************/
 
-#Social {
+#social {
 	background-color: #585351;
 	width: 100%;
 }
 
-#Social h1, i {
+#social h1, 
+#social i {
 	color: #f07d22;
 }
+
