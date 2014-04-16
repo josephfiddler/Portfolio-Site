@@ -127,11 +127,19 @@ html, body {
 
 #works {
 	background-color: #585351;
+	height: 670px;
 	width: 100%;
 }
 
 #works h1 {
 	color: #f07d22;
+	margin-bottom: 55px;
+}
+
+#carousel {
+	width: 44%;
+	height: 360px;
+	margin: 0 auto;
 }
 
 /************* hobbies **************/
@@ -139,6 +147,13 @@ html, body {
 #hobbies {
 	background-color: #f4f4f4;
 	width: 100%;
+	display: table;
+}
+
+#hobbies h1 {
+	font-size: 28px;
+	width: 20%;
+	text-align: center;
 }
 
 #hobbies h1,
@@ -146,8 +161,18 @@ html, body {
 	color: #585351;
 }
 
-#hobbies li {
+#hobbies p {
 	color: #f07d22;
+	font-size: 18px;
+}
+
+#hobbies span {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.hobbies-border {
+	border-left: 3px solid #585351;
 }
 
 /************* social **************/
@@ -162,3 +187,17 @@ html, body {
 	color: #f07d22;
 }
 
+#facebook:hover {
+	color: #4c66a4;
+	transition-duration: 0.3s;
+}
+
+#twitter:hover {
+	color: #55acee;
+	transition-duration: 0.3s;
+}
+
+#email:hover {
+	color: #f4f4f4;
+	transition-duration: 0.3s;
+}

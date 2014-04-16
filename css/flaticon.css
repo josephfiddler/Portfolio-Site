@@ -22,19 +22,18 @@ margin-left: 20px;
 }
 .flaticon-dumbbell:before {
 	content: "\e002";
+	font-size: 60px;
 }
 .flaticon-facebook:before {
 	content: "\e003";
 	font-size: 75px;
-}
-.flaticon-facebook:hover {
-	font-color: blue;
 }
 .flaticon-globe:before {
 	content: "\e004";
 }
 .flaticon-joystick:before {
 	content: "\e005";
+	font-size: 60px;
 }
 .flaticon-menu:before {
 	content: "\e006";
@@ -49,4 +48,5 @@ margin-left: 20px;
 }
 .flaticon-guitar:before {
 	content: "\e009";
+	font-size: 60px;
 }

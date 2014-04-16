@@ -9,7 +9,11 @@ $(document).ready(function () {
 	//$('#skill-row').css("margin-top", halfBeginningHeight / 2.5);
 
 	$('#education-experience').height(beginningWindowHeight);
-	$('#works').height(beginningWindowHeight);
+
+	//$('#works').height(beginningWindowHeight);
+	$('#works h1').css("margin-top", beginningWindowHeight / 5);
+	//$('#works h1').css("margin-bottom", beginningWindowHeight / 5);
+
 	$('#hobbies').height(beginningWindowHeight);
 
 	$('#social').height(beginningWindowHeight);
@@ -27,7 +31,12 @@ $(document).ready(function () {
 		//$('#skill-row').css("margin-top", halfBeginningHeight / 2.5);
 
 		$('#education-experience').height(resizedWindowHeight);
-		$('#works').height(resizedWindowHeight);
+
+
+		//$('#works').height(resizedWindowHeight);
+		$('#works h1').css("margin-top", resizedWindowHeight / 5);
+		//$('#works h1').css("margin-bottom", resizedWindowHeight / 5.5);
+
 		$('#hobbies').height(resizedWindowHeight);
 
 		$('#social').height(resizedWindowHeight);
