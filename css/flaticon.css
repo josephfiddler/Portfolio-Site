@@ -15,6 +15,7 @@ font-style: normal;
 margin-left: 20px;
 }.flaticon-graduation:before {
 	content: "\e000";
+	font-size: 45px;
 }
 .flaticon-email:before {
 	content: "\e001";
@@ -30,6 +31,7 @@ margin-left: 20px;
 }
 .flaticon-globe:before {
 	content: "\e004";
+	font-size: 45px;
 }
 .flaticon-joystick:before {
 	content: "\e005";
@@ -45,6 +47,7 @@ margin-left: 20px;
 }
 .flaticon-tools:before {
 	content: "\e008";
+	font-size: 45px;
 }
 .flaticon-guitar:before {
 	content: "\e009";
