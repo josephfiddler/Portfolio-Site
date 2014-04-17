@@ -2,6 +2,14 @@ $(document).ready(function () {
 	var beginningWindowHeight = $(window).height();
 	var halfBeginningHeight = $(window).height() / 2;
 
+	$('.single-item').slick({
+		dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1
+	});
+
 	$('#home').height(beginningWindowHeight);
 	$('#intro-row').css("margin-top", halfBeginningHeight - $('#logo-row').height());
 
@@ -9,8 +17,10 @@ $(document).ready(function () {
 	//$('#skill-row').css("margin-top", halfBeginningHeight / 2.5);
 
 	$('#education-experience').height(beginningWindowHeight);
+	$('#education-row').css("padding-top", halfBeginningHeight / 4);
+	$('#experience-row').css("margin-top", halfBeginningHeight / 2);
 
-	//$('#works').height(beginningWindowHeight);
+	$('#works').height(beginningWindowHeight);
 	$('#works h1').css("margin-top", beginningWindowHeight / 5);
 	//$('#works h1').css("margin-bottom", beginningWindowHeight / 5);
 
@@ -31,10 +41,12 @@ $(document).ready(function () {
 		//$('#skill-row').css("margin-top", halfBeginningHeight / 2.5);
 
 		$('#education-experience').height(resizedWindowHeight);
+		$('#education-row').css("padding-top", halfResizedHeight / 4);
+		$('#experience-row').css("margin-top", halfResizedHeight / 2);
 
 
 		//$('#works').height(resizedWindowHeight);
-		$('#works h1').css("margin-top", resizedWindowHeight / 5);
+		//$('#works h1').css("margin-top", resizedWindowHeight / 5);
 		//$('#works h1').css("margin-bottom", resizedWindowHeight / 5.5);
 
 		$('#hobbies').height(resizedWindowHeight);

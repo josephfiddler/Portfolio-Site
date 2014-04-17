@@ -136,9 +136,26 @@ html, body {
 #education-experience p {
 	font-size: 18px;
 }
- .full-width {
+
+.full-width {
  	width: 100%;
- }
+}
+
+.company {
+	color: #f07d22!important;
+}
+
+.date-buffer {
+	margin-right: 60px;
+}
+
+.bottom-border {
+	border-bottom: 3px solid #585351;
+}
+
+.experience-buffer {
+	margin-top: 15px;
+}
 
 
 /************* works **************/
@@ -158,6 +175,11 @@ html, body {
 	width: 44%;
 	height: 360px;
 	margin: 0 auto;
+}
+
+.slider {
+	margin: 0 auto;
+	width: 57%;
 }
 
 /************* hobbies **************/
