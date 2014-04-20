@@ -2,6 +2,8 @@ $(document).ready(function () {
 	var beginningWindowHeight = $(window).height();
 	var halfBeginningHeight = $(window).height() / 2;
 
+	new WOW().init();
+
 	$('.single-item').slick({
 		dots: true,
         infinite: true,
@@ -30,7 +32,7 @@ $(document).ready(function () {
 	$('#social h1').css("margin-top", beginningWindowHeight / 4);
 	$('#social h1').css("margin-bottom", beginningWindowHeight / 5);
 
-	$(window).resize(function() {
+	/*$(window).resize(function() {
 		var resizedWindowHeight = $(window).height();
 		var halfResizedHeight = $(window).height() / 2;
 
@@ -54,7 +56,7 @@ $(document).ready(function () {
 		$('#social').height(resizedWindowHeight);
 		$('#social h1').css("margin-top", resizedWindowHeight / 4);
 		$('#social h1').css("margin-bottom", resizedWindowHeight / 5.5);
-	});
+	});*/
 	
 });
 

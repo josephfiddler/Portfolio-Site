@@ -11,45 +11,50 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
+        font-size: 20px;
 font-style: normal;
 margin-left: 20px;
-}.flaticon-graduation:before {
+}.flaticon-arrowdown:before {
 	content: "\e000";
+	font-size: 60px;
+}
+.flaticon-graduation:before {
+	content: "\e001";
 	font-size: 45px;
 }
 .flaticon-email:before {
-	content: "\e001";
+	content: "\e002";
 	font-size: 75px;
 }
 .flaticon-dumbbell:before {
-	content: "\e002";
+	content: "\e003";
 	font-size: 60px;
 }
 .flaticon-facebook:before {
-	content: "\e003";
+	content: "\e004";
 	font-size: 75px;
 }
 .flaticon-globe:before {
-	content: "\e004";
+	content: "\e005";
 	font-size: 45px;
 }
 .flaticon-joystick:before {
-	content: "\e005";
+	content: "\e006";
 	font-size: 60px;
 }
 .flaticon-menu:before {
-	content: "\e006";
+	content: "\e007";
 	font-size: 35px;
 }
 .flaticon-twitter:before {
-	content: "\e007";
+	content: "\e008";
 	font-size: 75px;
 }
 .flaticon-tools:before {
-	content: "\e008";
+	content: "\e009";
 	font-size: 45px;
 }
 .flaticon-guitar:before {
-	content: "\e009";
+	content: "\e00a";
 	font-size: 60px;
 }

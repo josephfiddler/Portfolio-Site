@@ -17,6 +17,43 @@ html, body {
 	vertical-align: middle;
 }
 
+.tab-down-black {
+	width: 150px;
+	height: 75px;
+	margin: 0 auto;
+	margin-top: 87px;
+	border-radius: 75px 75px 0 0;
+	display: block;
+	background-color: #585351;
+	text-decoration: none;
+}
+
+.tab-down-black i,
+.tab-down-grey i {
+	width: 67%;
+	display: block;
+	margin: 0 auto!important;
+}
+
+.tab-down-grey {
+	width: 150px;
+	height: 75px;
+	margin: 0 auto;
+	margin-top: 87px;
+	border-radius: 75px 75px 0 0;
+	display: block;
+	background-color: #f4f4f4;
+}
+
+#home a,
+#skills a,
+#education-experience a,
+#works a,
+#hobbies a,
+#social a {
+	text-decoration: none;
+}
+
 
 /************* home **************/
 
