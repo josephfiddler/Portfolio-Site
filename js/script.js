@@ -4,6 +4,8 @@ $(document).ready(function () {
 
 	new WOW().init();
 
+	$('.toggle-menu').jPushMenu();
+
 	$('.single-item').slick({
 		dots: true,
         infinite: true,
@@ -11,6 +13,31 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1
 	});
+
+	/*$('#skillsScroll').click(function () {
+		$('html, body').animate({
+			scrollTop: $('#skills').offset().top }, 2000);
+	});
+
+	$('#educationExperienceScroll').click(function () {
+		$('html, body').animate({
+			scrollTop: $('#education-experience').offset().top }, 2000);
+	});
+
+	$('#worksScroll').click(function () {
+		$('html, body').animate({
+			scrollTop: $('#works').offset().top }, 2000);
+	});
+
+	$('#hobbiesScroll').click(function () {
+		$('html, body').animate({
+			scrollTop: $('#hobbies').offset().top }, 2000);
+	});
+
+	$('#socialScroll').click(function () {
+		$('html, body').animate({
+			scrollTop: $('#social').offset().top }, 2000);
+	});*/
 
 	$('#home').height(beginningWindowHeight);
 	$('#intro-row').css("margin-top", halfBeginningHeight - $('#logo-row').height());

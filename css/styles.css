@@ -2,6 +2,7 @@
 html, body {
 	overflow-x: hidden;
 	margin: 0;
+	font-family: 'Gudea', 'sans-serif';
 }
 
 .left {
@@ -52,6 +53,27 @@ html, body {
 #hobbies a,
 #social a {
 	text-decoration: none;
+}
+
+.cbp-spmenu {
+	background: #585351!important;
+}
+
+.cbp-spmenu h3 {
+	color: #f07d22!important;
+	background: #585351!important;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid #f07d22!important;
+}
+
+.cbp-spmenu a {
+	color: #f4f4f4!important;
+}
+
+.cbp-spmenu a:hover {
+	background: #f07d22!important;
 }
 
 
