@@ -1,18 +1,11 @@
 $(document).ready(function () {
-	var beginningWindowHeight = $(window).height();
+	var beginningWindowHeight = "598";
 	var halfBeginningHeight = $(window).height() / 2;
 
 	new WOW().init();
 
 	$('.toggle-menu').jPushMenu();
 
-	$('.single-item').slick({
-		dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        slidesToScroll: 1
-	});
 
 	/*$('#skillsScroll').click(function () {
 		$('html, body').animate({
@@ -39,23 +32,23 @@ $(document).ready(function () {
 			scrollTop: $('#social').offset().top }, 2000);
 	});*/
 
-	$('#home').height(beginningWindowHeight);
+	//$('#home').height(beginningWindowHeight);
 	$('#intro-row').css("margin-top", halfBeginningHeight - $('#logo-row').height());
 
-	$('#skills').height(beginningWindowHeight);
+	//$('#skills').height(beginningWindowHeight);
 	//$('#skill-row').css("margin-top", halfBeginningHeight / 2.5);
 
-	$('#education-experience').height(beginningWindowHeight);
+	//$('#education-experience').height(beginningWindowHeight);
 	$('#education-row').css("padding-top", halfBeginningHeight / 4);
 	$('#experience-row').css("margin-top", halfBeginningHeight / 2);
 
-	$('#works').height(beginningWindowHeight);
+	//$('#works').height(beginningWindowHeight);
 	$('#works h1').css("margin-top", beginningWindowHeight / 5);
 	//$('#works h1').css("margin-bottom", beginningWindowHeight / 5);
 
-	$('#hobbies').height(beginningWindowHeight);
+	//$('#hobbies').height(beginningWindowHeight);
 
-	$('#social').height(beginningWindowHeight);
+	//$('#social').height(beginningWindowHeight);
 	$('#social h1').css("margin-top", beginningWindowHeight / 4);
 	$('#social h1').css("margin-bottom", beginningWindowHeight / 5);
 
