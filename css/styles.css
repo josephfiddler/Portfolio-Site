@@ -1,4 +1,4 @@
-/************* Global **************/
+/********************************** global *************************************/
 html, body {
 	overflow-x: hidden;
 	margin: 0;
@@ -16,34 +16,6 @@ html, body {
 .align-vertical {
 	display: table-cell;
 	vertical-align: middle;
-}
-
-.tab-down-black {
-	width: 150px;
-	height: 75px;
-	margin: 0 auto;
-	margin-top: 87px;
-	border-radius: 75px 75px 0 0;
-	display: block;
-	background-color: #585351;
-	text-decoration: none;
-}
-
-.tab-down-black i,
-.tab-down-grey i {
-	width: 67%;
-	display: block;
-	margin: 0 auto!important;
-}
-
-.tab-down-grey {
-	width: 150px;
-	height: 75px;
-	margin: 0 auto;
-	margin-top: 87px;
-	border-radius: 75px 75px 0 0;
-	display: block;
-	background-color: #f4f4f4;
 }
 
 #home a,
@@ -77,39 +49,137 @@ html, body {
 }
 
 
-/************* home **************/
+/********************************** home *************************************/
 
-#home {
-	background-color: #f4f4f4;
-	width: 100%;
-	height: 598px;
+@media screen and (min-width: 1200px) {
+	#home {
+		background-color: #f4f4f4;
+		width: 100%;
+		height: 598px;
+	}
+
+	#home img {
+		width: 100px;
+		height: 100px;
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	#home i {
+		margin-top: 40px;
+		margin-right: 40px;
+		color: #f07d22;
+	}
+
+	#home h1 {
+		color: #585351;
+		text-align: center;
+	}
+
+	#home p {
+		color: #f07d22;
+		text-align: center;
+		font-size: 18px;
+	}
 }
 
-#home img {
-	width: 100px;
-	height: 100px;
-	margin-top: 40px;
-	margin-left: 40px;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#home {
+		background-color: #f4f4f4;
+		width: 100%;
+		height: 598px;
+	}
+
+	#home img {
+		width: 100px;
+		height: 100px;
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	#home i {
+		margin-top: 40px;
+		margin-right: 40px;
+		color: #f07d22;
+	}
+
+	#home h1 {
+		color: #585351;
+		text-align: center;
+	}
+
+	#home p {
+		color: #f07d22;
+		text-align: center;
+		font-size: 18px;
+	}
 }
 
-#home i {
-	margin-top: 40px;
-	margin-right: 40px;
-	color: #f07d22;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#home {
+		background-color: #f4f4f4;
+		width: 100%;
+		height: 615px;
+	}
+
+	#home img {
+		width: 100px;
+		height: 100px;
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	#home i {
+		margin-top: 40px;
+		margin-right: 40px;
+		color: #f07d22;
+	}
+
+	#home h1 {
+		color: #585351;
+		text-align: center;
+	}
+
+	#home p {
+		color: #f07d22;
+		text-align: center;
+		font-size: 18px;
+	}
 }
 
-#home h1 {
-	color: #585351;
-	text-align: center;
+@media screen and (max-width: 767px) {
+	#home {
+		background-color: #f4f4f4;
+		width: 100%;
+		height: 598px;
+	}
+
+	#home img {
+		width: 100px;
+		height: 100px;
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	#home i {
+		margin-top: 40px;
+		margin-right: 40px;
+		color: #f07d22;
+	}
+
+	#home h1 {
+		color: #585351;
+		text-align: center;
+	}
+
+	#home p {
+		color: #f07d22;
+		text-align: center;
+		font-size: 18px;
+	}
 }
 
-#home p {
-	color: #f07d22;
-	text-align: center;
-	font-size: 18px;
-}
-
-/************* skills **************/
+/********************************** skills *************************************/
 
 @media screen and (min-width: 1200px) {
 	#skills {
@@ -263,6 +333,7 @@ html, body {
 		color: #f07d22;
 		width: 100%;
 		display: table;
+		height: 615px;
 	}
 
 	#skills h2 {
@@ -353,6 +424,8 @@ html, body {
 
 	#skills h1 {
 		text-align: center;
+		margin-top: 0;
+		padding-top: 25px;
 	}
 
 	.skill-slot {
@@ -402,7 +475,7 @@ html, body {
 	}
 }
 
-/************* education-experience **************/
+/********************************** education-experience *************************************/
 
 @media screen and (min-width: 1200px) {
 	#education-experience {
@@ -508,12 +581,17 @@ html, body {
 	#education-experience {
 		background-color: #f4f4f4;
 		width: 100%;
+		height: 615px;
 	}
 
 	#education-experience h1,
 	#education-experience p,
 	#education-experience i {
 		color: #585351;
+	}
+
+	#education-experience i {
+		padding-left: 15px;
 	}
 
 	#education-experience span {
@@ -565,6 +643,10 @@ html, body {
 		color: #585351;
 	}
 
+	#education-experience i {
+		display: none;
+	}
+
 	#education-experience span {
 		color: #f07d22;
 		font-size: 18px;
@@ -604,32 +686,110 @@ html, body {
 }
 
 
-/************* works **************/
+/********************************** works *************************************/
 
-#works {
-	background-color: #585351;
-	width: 100%;
-	height: 598px;
+@media screen and (min-width: 1200px) {
+	#works {
+		background-color: #585351;
+		width: 100%;
+		height: 598px;
+	}
+
+	#works h1 {
+		color: #f07d22;
+		margin-bottom: 55px;
+	}
+
+	#works img {
+		width: 100%;
+		margin-bottom: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#works img:hover {
+		opacity: 0.6;
+		transition-duration: 0.1s;
+	}
 }
 
-#works h1 {
-	color: #f07d22;
-	margin-bottom: 55px;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#works {
+		background-color: #585351;
+		width: 100%;
+		height: 598px;
+	}
+
+	#works h1 {
+		color: #f07d22;
+		margin-bottom: 55px;
+	}
+
+	#works img {
+		width: 100%;
+		margin-bottom: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#works img:hover {
+		opacity: 0.6;
+		transition-duration: 0.1s;
+	}
 }
 
-#works img {
-	width: 100%;
-	margin-bottom: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#works {
+		background-color: #585351;
+		width: 100%;
+		height: 615px;
+	}
+
+	#works h1 {
+		color: #f07d22;
+		margin-bottom: 55px;
+	}
+
+	#works img {
+		width: 100%;
+		margin-bottom: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#works img:hover {
+		opacity: 0.6;
+		transition-duration: 0.1s;
+	}
 }
 
-#works img:hover {
-	opacity: 0.6;
-	transition-duration: 0.1s;
+@media screen and (max-width: 767px) {
+	#works {
+		background-color: #585351;
+		width: 100%;
+		height: 598px;
+	}
+
+	#works h1 {
+		color: #f07d22;
+		margin-bottom: 55px;
+	}
+
+	#works img {
+		width: 100%;
+		margin-bottom: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#works img:hover {
+		opacity: 0.6;
+		transition-duration: 0.1s;
+	}
 }
 
-/************* hobbies **************/
+
+/********************************** hobbies *************************************/
 
 @media screen and (min-width: 1200px) {
 	#hobbies {
@@ -718,6 +878,7 @@ html, body {
 		background-color: #f4f4f4;
 		width: 100%;
 		display: table;
+		height: 615px;
 	}
 
 	#hobbies h1 {
@@ -778,7 +939,7 @@ html, body {
 	}
 
 	#hobbies span {
-		padding-right: 40px;
+		padding-right: 30px;
 	}
 
 	.hobbies-border {
@@ -786,30 +947,116 @@ html, body {
 	}
 }
 
-/************* social **************/
+/********************************** social *************************************/
 
-#social {
-	background-color: #585351;
-	width: 100%;
-	height: 598px;
+@media screen and (min-width: 1200px) {
+	#social {
+		background-color: #585351;
+		width: 100%;
+		height: 598px;
+	}
+
+	#social h1, 
+	#social i {
+		color: #f07d22;
+	}
+
+	#facebook:hover {
+		color: #4c66a4;
+		transition-duration: 0.3s;
+	}
+
+	#twitter:hover {
+		color: #55acee;
+		transition-duration: 0.3s;
+	}
+
+	#email:hover {
+		color: #f4f4f4;
+		transition-duration: 0.3s;
+	}
 }
 
-#social h1, 
-#social i {
-	color: #f07d22;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#social {
+		background-color: #585351;
+		width: 100%;
+		height: 598px;
+	}
+
+	#social h1, 
+	#social i {
+		color: #f07d22;
+	}
+
+	#facebook:hover {
+		color: #4c66a4;
+		transition-duration: 0.3s;
+	}
+
+	#twitter:hover {
+		color: #55acee;
+		transition-duration: 0.3s;
+	}
+
+	#email:hover {
+		color: #f4f4f4;
+		transition-duration: 0.3s;
+	}
 }
 
-#facebook:hover {
-	color: #4c66a4;
-	transition-duration: 0.3s;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#social {
+		background-color: #585351;
+		width: 100%;
+		height: 615px;
+	}
+
+	#social h1, 
+	#social i {
+		color: #f07d22;
+	}
+
+	#facebook:hover {
+		color: #4c66a4;
+		transition-duration: 0.3s;
+	}
+
+	#twitter:hover {
+		color: #55acee;
+		transition-duration: 0.3s;
+	}
+
+	#email:hover {
+		color: #f4f4f4;
+		transition-duration: 0.3s;
+	}
 }
 
-#twitter:hover {
-	color: #55acee;
-	transition-duration: 0.3s;
-}
+@media screen and (max-width: 767px) {
+	#social {
+		background-color: #585351;
+		width: 100%;
+		height: 598px;
+	}
 
-#email:hover {
-	color: #f4f4f4;
-	transition-duration: 0.3s;
+	#social h1, 
+	#social i {
+		color: #f07d22;
+	}
+
+	#facebook:hover {
+		color: #4c66a4;
+		transition-duration: 0.3s;
+	}
+
+	#twitter:hover {
+		color: #55acee;
+		transition-duration: 0.3s;
+	}
+
+	#email:hover {
+		color: #f4f4f4;
+		transition-duration: 0.3s;
+	}
 }
