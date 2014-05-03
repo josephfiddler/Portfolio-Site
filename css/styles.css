@@ -110,61 +110,200 @@ html, body {
 
 /************* skills **************/
 
-#skills {
-	background-color: #585351;
-	color: #f07d22;
-	width: 100%;
-	display: table;
+@media screen and (min-width: 1200px) {
+	#skills {
+		background-color: #585351;
+		color: #f07d22;
+		width: 100%;
+		display: table;
+	}
+
+	#skills h2 {
+		padding: 0;
+		margin-bottom: 25px;
+	}
+
+	#skill-slot-row {
+		border-left: 3px solid;
+		padding-left: 85px;
+		margin-top: 15px;
+	}
+
+	#skills h1 {
+		text-align: center;
+		width: 20%;
+	}
+
+	.skill-slot {
+		overflow: hidden;
+		margin-bottom: 15px;
+		clear: both;
+	}
+
+	.skill-buffer {
+		margin-right: 38px;
+	}
+
+	.skill-slot span {
+		float: left;
+		color: #f07d22;
+		font-size: 18px;
+	}
+
+	#skills ul {
+		padding: 0;
+		float: right;
+		display: inline-block;
+		list-style: none;
+	}
+
+	#skills ul li {
+		font-size: 18px;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.circle {
+		height: 25px;
+		width: 25px;
+		border-radius: 50%;
+		border: 2px solid #f07d22;
+	}
+
+	.filled {
+		background-color: #f07d22;
+	}
 }
 
-#skill-slot-row {
-	border-left: 3px solid;
-	padding-left: 85px;
-	margin-top: 15px;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#skills {
+		background-color: #585351;
+		color: #f07d22;
+		width: 100%;
+		display: table;
+	}
+
+	#skills h2 {
+		padding: 0;
+		margin-bottom: 25px;
+	}
+
+	#skill-slot-row {
+		border-left: 3px solid;
+		padding-left: 85px;
+		margin-top: 15px;
+	}
+
+	#skills h1 {
+		text-align: center;
+		width: 20%;
+	}
+
+	.skill-slot {
+		overflow: hidden;
+		margin-bottom: 15px;
+		clear: both;
+	}
+
+	.skill-buffer {
+		margin-right: 38px;
+	}
+
+	.skill-slot span {
+		float: left;
+		color: #f07d22;
+		font-size: 18px;
+	}
+
+	#skills ul {
+		padding: 0;
+		float: right;
+		display: inline-block;
+		list-style: none;
+	}
+
+	#skills ul li {
+		font-size: 18px;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.circle {
+		height: 25px;
+		width: 25px;
+		border-radius: 50%;
+		border: 2px solid #f07d22;
+	}
+
+	.filled {
+		background-color: #f07d22;
+	}
 }
 
-#skills h1 {
-	text-align: center;
-	width: 20%;
-}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#skills {
+		background-color: #585351;
+		color: #f07d22;
+		width: 100%;
+		display: table;
+	}
 
-.skill-slot {
-	overflow: hidden;
-	margin-bottom: 15px;
-}
+	#skills h2 {
+		padding: 0;
+		margin-bottom: 25px;
+	}
 
-.skill-buffer {
-	margin-right: 38px;
-}
+	#skill-slot-row {
+		border-left: 3px solid;
+		padding-left: 85px;
+		margin-top: 15px;
+	}
 
-.skill-slot span {
-	float: left;
-	color: #f07d22;
-	font-size: 18px;
-}
+	#skills h1 {
+		text-align: center;
+		width: 20%;
+	}
 
-#skills ul {
-	padding: 0;
-	float: right;
-	display: inline-block;
-	list-style: none;
-}
+	.skill-slot {
+		overflow: hidden;
+		margin-bottom: 15px;
+		clear: both;
+	}
 
-#skills ul li {
-	font-size: 18px;
-	float: left;
-	margin-right: 10px;
-}
+	.skill-buffer {
+		margin-right: 0;
+	}
 
-.circle {
-	height: 25px;
-	width: 25px;
-	border-radius: 50%;
-	border: 2px solid #f07d22;
-}
+	.skill-slot span {
+		float: left;
+		color: #f07d22;
+		font-size: 18px;
+	}
 
-.filled {
-	background-color: #f07d22;
+	#skills ul {
+		padding: 0;
+		float: right;
+		display: inline-block;
+		list-style: none;
+		margin-right: 95px;
+	}
+
+	#skills ul li {
+		font-size: 18px;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.circle {
+		height: 25px;
+		width: 25px;
+		border-radius: 50%;
+		border: 2px solid #f07d22;
+	}
+
+	.filled {
+		background-color: #f07d22;
+	}
 }
 
 /************* education-experience **************/
@@ -238,7 +377,6 @@ html, body {
 
 .slider {
 	margin: 0 auto;
-	width: 57%;
 }
 
 /************* hobbies **************/
