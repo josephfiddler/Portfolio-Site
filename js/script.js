@@ -32,7 +32,7 @@ $(document).ready(function () {
 			scrollTop: $('#social').offset().top }, 1000);
 	});
 
-	$('#intro-row').css("margin-top", halfBeginningHeight - $('#logo-row').height());
+	//$('#intro-row').css("margin-top", halfBeginningHeight - $('#logo-row').height());
 
 	$('#education-row').css("padding-top", halfBeginningHeight / 4);
 	$('#experience-row').css("margin-top", halfBeginningHeight / 2);

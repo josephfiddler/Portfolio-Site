@@ -60,6 +60,14 @@ html, body {
 		margin-left: 40px;
 	}
 
+	#that-guy img {
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+
 	#home i {
 		margin-top: 40px;
 		margin-right: 40px;
@@ -91,6 +99,14 @@ html, body {
 		height: 100px;
 		margin-top: 40px;
 		margin-left: 40px;
+	}
+
+	#that-guy img {
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		border-radius: 50%;
 	}
 
 	#home i {
@@ -126,6 +142,14 @@ html, body {
 		margin-left: 40px;
 	}
 
+	#that-guy img {
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+
 	#home i {
 		margin-top: 40px;
 		margin-right: 40px;
@@ -157,6 +181,14 @@ html, body {
 		height: 100px;
 		margin-top: 40px;
 		margin-left: 40px;
+	}
+
+	#that-guy img {
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		border-radius: 50%;
 	}
 
 	#home i {
